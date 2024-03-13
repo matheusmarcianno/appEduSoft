@@ -60,7 +60,7 @@ class _HomeState extends State<Home> {
                   ),
                   title: Text(personsList[index].name),
                   trailing: IconButton(
-                    icon: const Icon(Icons.remove),
+                    icon: const Icon(Icons.highlight_remove_sharp),
                     onPressed: () {
                       bloc.add(RemovePersonEvent(person: personsList[index]));
                     },
