@@ -11,7 +11,7 @@ class PersonDetailsPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Perfil"),
+        title: const Text("Detalhes"),
         centerTitle: true,
       ),
       body: Padding(
