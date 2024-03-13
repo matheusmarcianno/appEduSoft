@@ -59,7 +59,7 @@ class PersonDetailsPage extends StatelessWidget {
               value: personArgs.rank,
             ),
             PersonDetailsCard(
-              title: "Nome:",
+              title: "Sexo:",
               value: personArgs.gender.isEmpty
                   ? "Não informado"
                   : personArgs.gender,
